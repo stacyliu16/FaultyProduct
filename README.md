@@ -1,15 +1,13 @@
 # FaultyProduct
-### Overview
-
+## Overview
 For this capstone project, we will use the SECOM manufacturing Data Set from the UCI Machine Learning Repository. The set is originally for semiconductor manufacturing, but in our case, we will assume that it is for the diaper manufacturing process.
 
-**Data**
+## Data
 The dataset consists of two files:
 - Dataset file SECOM: containing 1567 examples, each with 591 features, presented in a 1567 x 591 matrix
 - Labels: file listing the classifications and date time stamp for each example
 
-**Data Cleaning**
-
+## Data Cleaning
 I prepared the manufacturing data for modeling by performing the following:
 - Merged the feature and label datasets
 - Split data into training/tuning/testing (70/15/15)
@@ -26,8 +24,7 @@ I prepared the manufacturing data for modeling by performing the following:
 - Applied Wrapper forward selection to feature select:
     - Performance (using logistic regression and AOC curve as the error metric) started leveling off with the top 50 features
     
-**Initial Model build**
-
+## Initial Model build
 I built the following models to detect faulty products:
 
 1. Decision Tree Model
@@ -48,7 +45,7 @@ Below are the results (on the tune set):
 
 However it did not generalize as well to the test set. The model prediction on the test set had an accuracy score of 0.8729 and F1 score of 0.1667.
 
-**Neural Network Models**
+## Neural Network Models
 
 I built the following neural network models to detect faulty products:
 1. Simple neural network
