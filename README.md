@@ -9,6 +9,7 @@ The dataset consists of two files:
 - Labels: file listing the classifications and date time stamp for each example
 
 **Data Cleaning**
+
 I prepared the manufacturing data for modeling by performing the following:
 - Merged the feature and label datasets
 - Split data into training/tuning/testing (70/15/15)
