@@ -1,6 +1,6 @@
-# FaultyProduct
+# Faulty Product
 ## Overview
-For this capstone project, we will use the SECOM manufacturing Data Set from the UCI Machine Learning Repository. The set is originally for semiconductor manufacturing, but in our case, we will assume that it is for the diaper manufacturing process.
+For this capstone project, we will use the SECOM manufacturing Data Set from the UCI Machine Learning Repository. The objective is to detect faulty products.
 
 ## Data
 The dataset consists of two files:
